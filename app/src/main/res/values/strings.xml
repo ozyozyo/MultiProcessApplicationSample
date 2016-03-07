@@ -1,3 +1,11 @@
 <resources>
     <string name="app_name">MultiProcessApplicationSample</string>
+    <string name="hello">Hello</string>
+    <string name="launch_neko_process">launch neko :)</string>
+    <string name="introduce_main_activity">Hi, I\'m running at main process.</string>
+    <string name="introduce_neko_activity">Thank you for launching me! I\'m runnning on neko process.</string>
+    <string name="finish_neko_process">finish neko process :(</string>
+    <string name="trigger_task_in_10second">trigger task in 10 second</string>
+    <string name="bind_service">bind new service</string>
+    <string name="reload">reload</string>
 </resources>

@@ -1,4 +1,4 @@
-package ozyozyo.com.multiprocessapplicationsample;
+package com.ozyozyo.multiprocessapplicationsample;
 
 import android.app.Application;
 import android.test.ApplicationTestCase;

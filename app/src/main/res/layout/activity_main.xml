@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:orientation="vertical"
+              android:background="@color/background"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent">
+    <TextView
+        android:layout_width="fill_parent"
+        android:layout_height="25dp"
+        android:text="@string/hello"
+        android:textColor="@color/base_text_color"
+        />
+
+     <TextView
+        android:layout_width="fill_parent"
+        android:layout_height="10dp"
+        android:text="@string/introduce_main_activity"
+        android:textColor="@color/base_text_color"
+        />
+
+    <ListView
+        android:id="@+id/list_process"
+        android:layout_width="fill_parent"
+        android:layout_height="50dp" />
+
+    <Button
+        android:id="@+id/button_launch_cat"
+        android:layout_width="fill_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:background="@color/base_button_color"
+        android:text="@string/launch_neko_process"
+        />
+
+    <Button
+        android:id="@+id/reload"
+        android:layout_width="fill_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:background="@color/base_button_color"
+        android:text="@string/reload"
+        />
+</LinearLayout>
